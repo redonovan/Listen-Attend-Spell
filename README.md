@@ -3,7 +3,7 @@
 
 Implemented in TensorFlow 2.3.0 directly from the paper (<a href=https://arxiv.org/abs/1508.01211>Chan, et al. 2015</a>).
 
-My version and the paper version differ substantially in terms of training.  The version in the paper was trained on an internal dataset containing 3 million utterances, increased a further 20 times using a room simulator, for 2 weeks on 32 DistBelief replicas.  My version was trained on 28 thousand utterances from the <a href=https://www.openslr.org/12>LibriSpeech</a> corpus, with no room simulator, for 8 hours on a gaming laptop.
+My version and the paper version underwent substantially different training.  The version in the paper was trained on an internal dataset containing 3 million utterances, increased a further 20 times using a room simulator, for 2 weeks on 32 DistBelief replicas.  My version was trained on 28 thousand utterances from the <a href=https://www.openslr.org/12>LibriSpeech</a> corpus, with no room simulator, for 8 hours on a gaming laptop.
 
 The differences in training probably explain the difference in results.  While the paper obtained a 14.1% word error rate, decoding on a separate test set, my system achieves a 52.8% character accuracy rate, on validation data when (mostly) teacher-forcing the previous character.
 
