@@ -23,4 +23,4 @@ target  : 'anyway he would never allow one of his horses to be put to such a str
 
 The decoder example suggests that the language model of the decoder is currently dominating the acoustics of the listener.
 
-My code is available in <a href=https://github.com/redonovan/Listen-Attend-Spell/blob/main/listenattendspell.py>listenattendspell.py</a>, with TensorBoard training curves in <a href=https://github.com/redonovan/Listen-Attend-Spell/blob/main/TensorBoard.png>TensorBoard.png</a>.
+My code is available in <a href=https://github.com/redonovan/Listen-Attend-Spell/blob/main/listenattendspell.py>listenattendspell.py</a>, with TensorBoard training curves in <a href=https://github.com/redonovan/Listen-Attend-Spell/blob/main/TensorBoard.png>TensorBoard.png</a>; 1 epoch = 3546 steps.
