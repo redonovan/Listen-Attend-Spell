@@ -371,6 +371,7 @@ class DecoderCell(keras.layers.Layer):
         query = layers.Reshape((1, self.att_dim))(m2)
         #
         # Apply the psi attention MLP to the listener features to get the key, (batch, frames/pd, att_dim)
+        # TODO : I have noticed that key computation could and so should be done outside of DecoderCell.
         l1  = self.psi1(listener_features)
         key = self.psi2(l1)
         #
