@@ -27,4 +27,4 @@ I also plotted the decoder-listener attention weights for this sentence, finding
 
 My code is in <a href=listenattendspell.py>listenattendspell.py</a>, and the TensorBoard training curve in <a href=TensorBoardTrain.png>TensorBoardTrain.png</a>.
 
-Both the attention weights and the decoded text suggest that the speller is ignoring the acoustics.  This problem was mentioned in the original LAS paper (top of page 2).  I explore possible solutions in <a href=../LAS-Variations>LAS Variations</a>.
+Both the attention weights and the decoded text suggest that the speller is ignoring the acoustics.  This problem was mentioned in the original LAS paper (top of page 2).  I explore possible solutions in <a href=https://github.com/redonovan/LAS-Variations>Listen Attend Spell Variations</a>.
