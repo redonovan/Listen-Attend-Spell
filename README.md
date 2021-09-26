@@ -21,7 +21,7 @@ decoded : 'and the strange property of the state of the state of the state of th
 target  : 'anyway he would never allow one of his horses to be put to such a strain$'
 </pre>
 
-I also plotted the decoder-listener attention weights for this sentence, finding that every character attends to the 1st acoustic timestep:
+I also plotted the decoder-listener attention weights for this sentence, when teacher forcing the previous character, finding that every character attends to the 1st acoustic timestep:
 
 ![attention weights picture](AttentionWeights.png)
 
